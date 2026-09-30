@@ -1,0 +1,33 @@
+{
+	"name": "create-cesarq-starter",
+	"version": "1.0.0",
+	"description": "Minimal React + TypeScript + Vite starter initializer",
+	"type": "module",
+	"bin": {
+		"create-cesarq-starter": "bin/create.js"
+	},
+	"files": [
+		"bin",
+		"template"
+	],
+	"keywords": [
+		"npm",
+		"create",
+		"starter",
+		"react",
+		"typescript",
+		"vite"
+	],
+	"engines": {
+		"node": ">=24"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CesarLopezQ/cesarq-react-starter.git"
+	},
+	"bugs": {
+		"url": "https://github.com/CesarLopezQ/cesarq-react-starter/issues"
+	},
+	"homepage": "https://github.com/CesarLopezQ/cesarq-react-starter"
+}
