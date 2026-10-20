@@ -29,5 +29,8 @@
 	"bugs": {
 		"url": "https://github.com/CesarLopezQ/cesarq-react-starter/issues"
 	},
-	"homepage": "https://github.com/CesarLopezQ/cesarq-react-starter"
+	"homepage": "https://github.com/CesarLopezQ/cesarq-react-starter",
+	"scripts": {
+		"test": "node --test"
+	}
 }

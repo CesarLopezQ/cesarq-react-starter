@@ -129,11 +129,12 @@ my-project/
 │   ├── main.tsx
 │   └── vite-env.d.ts
 ├── .gitignore
+├── .npmignore
 ├── .prettierignore
 ├── eslint.config.js
 ├── index.html
-├── package.json
 ├── package-lock.json
+├── package.json
 ├── prettier.config.js
 ├── tsconfig.app.json
 ├── tsconfig.json
@@ -145,11 +146,31 @@ my-project/
 
 This starter provides the configuration needed to begin a React project without the example application and unnecessary boilerplate normally included in a scaffolded project.
 
-The generated application starts with a simple `Hello World` component that can be replaced immediately.
-
 ## Requirements
 
-Node.js 24 or newer is required.
+- Node.js 24 or newer
+- npm
+- Git
+
+To check your installed versions:
+
+```bash
+node --version
+npm --version
+git --version
+```
+
+## Troubleshooting
+
+If automatic dependency installation fails, navigate to the generated project and run:
+
+```bash
+npm install
+```
+
+If the application does not start, verify that your Node.js version meets the minimum requirement.
+
+For deployment issues, check the GitHub Actions workflow logs.
 
 ## License
 
