@@ -1,5 +1,6 @@
 export default {
   semi: false,
   singleQuote: true,
-  trailingComma: "all",
-};
+  trailingComma: 'all',
+  plugins: ['prettier-plugin-css-order'],
+}
